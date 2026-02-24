@@ -7,16 +7,6 @@ import "firebase/compat/storage";
 import "firebase/compat/messaging";
 
 // Your Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyD1v8HZSghsL9D4iF8F8LshkMwdwW0yrzo",
-  authDomain: "johncy-chat-app.firebaseapp.com",
-  databaseURL: "https://johncy-chat-app-default-rtdb.firebaseio.com",
-  projectId: "johncy-chat-app",
-  storageBucket: "johncy-chat-app.firebasestorage.app",
-  messagingSenderId: "627719347098",
-  appId: "1:627719347098:web:c1d648b41cc099432eb823",
-  measurementId: "G-HH0W4F7JY3"
-};
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
